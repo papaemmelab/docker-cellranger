@@ -3,4 +3,4 @@ services:
 
 script:
   - docker build -f Dockerfile -t test-image .
-  - docker run -it test-image --version
+  - docker run -it test-image --help
