@@ -8,7 +8,7 @@ A Dockerfile to build a docker container for [10X Genomics CellRanger] installat
 
     docker run papaemmelab/docker-cellranger --help
 
-[docker_base]: https://hub.docker.com/r/papaemmelab/docker-cellranger
+[docker_base]: https://hub.docker.com/r/papaemmelab/cellranger
 [docker_version]: https://img.shields.io/badge/version-v6.0.1-red
 [automated_badge]: https://img.shields.io/badge/docker%20build-automated-blue
 [travis_badge]: https://travis-ci.com/papaemmelab/docker-cellranger.svg?branch=master
