@@ -1,0 +1,6 @@
+services:
+  - docker
+
+script:
+  - docker build -f Dockerfile -t test-image .
+  - docker run -it test-image --version
