@@ -15,7 +15,7 @@ ARG DOWNLOAD_LINK="https://cf.10xgenomics.com/releases/cell-exp/cellranger-3.1.0
 
 RUN cd /opt/ && \
     wget -O cellranger-$VERSION.tar.gz ${DOWNLOAD_LINK} &> /dev/null && \
-    bsdtar -xzvf cellranger-$VERSION.tar.gz && \
+    bsdtar -xzf cellranger-$VERSION.tar.gz && \
     rm -f cellranger-$VERSION.tar.gz
 
 # Set locale
